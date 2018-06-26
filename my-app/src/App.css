@@ -1,0 +1,157 @@
+html { color:#000;} 
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin:0; padding:0; }
+body{ font: 12px/1.5 Microsoft Yahei,Arial; color:#666; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; } 
+section, header, article, time, nav, footer, figure, figcaption { display:block; margin:0; padding:0; }
+input:focus, a:focus { outline:none;border:none}
+fieldset, img { border:0; } 
+address, caption, cite, code, dfn, em, th, var { font-style:normal; font-weight:normal;font-size: 12px;}
+ol, ul { list-style:none; } 
+caption, th { text-align:left; } 
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; } 
+q:before, q:after { content:''; } 
+abbr, acronym { border:0; font-variant:normal; } 
+sup { vertical-align:text-top; }
+sub { vertical-align:text-bottom; } 
+button, input, textarea, select { font-family:Microsoft YaHei, arial, simsun, sans-serif; font-size:inherit; font-weight:inherit; line-height:1.5; vertical-align:middle; } 
+button, input, textarea, select { font-size:100%; }
+button,input{outline: none;border:none}
+textarea { resize:none; }
+legend { color:#000; }
+a{ vertical-align:baseline; } 
+a{ text-decoration:none; }
+a:hover{text-decoration:none;}
+a:visited{text-decoration:none;}
+.clear { display:block; float:none; clear:both; overflow:hidden; visibility:hidden; width:0; height:0; background:none; border:0; font-size:0; } 
+.clearfix:before, 
+.clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+.clearfix{ zoom:1; }
+i{font-style: normal!important;}
+input:-webkit-autofill {
+    -webkit-box-shadow : 0 0 0 1000px white inset ;
+    background-image : none ;
+
+}
+
+html,body{height:100%;width:100%;}
+
+
+
+#root,#root>div{
+  width:100%;
+  height:100%;
+}
+.App {
+  width:100%;
+  height:100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*login*/
+
+.login-bg-wrap{
+    width: 100%;
+    height: 100%;
+    background-image:url('static/hj.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.login-content{
+    position: absolute;
+    top: 10%;
+    width: 24rem;
+    left: 10%;
+    bottom: 10%;
+}
+.login-content h1{
+    color: #222;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 0.75rem 0 7rem 0;
+}
+.logo{
+    display: block;
+    margin:5rem 0 4rem 0
+}
+.login-content h2{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #333;
+}
+.login-content label{
+    display: block;
+    margin-bottom:3.5rem;
+}
+
+.login-content label span{
+    display: block;
+    color: #1e89f7;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+}
+.login-content label input{
+    width: 24rem;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    padding: 0.75rem 0;
+    font-size: 1.75rem;
+    line-height: 1.5rem;
+}
+
+.login-content label input.error{
+    border-bottom:1px solid #e51837
+}
+
+.login-btn{
+    font-size: 1.75rem;
+    display: block;
+    width: 100%;
+    background-color: #1e89f7!important;
+    border-color: #1e89f7!important;
+    padding: 10px 12px;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+.login-btn.disabled{
+  opacity: .65
+}
+.required{
+  display:none;
+}
+.error{
+  display: block;
+  color:red;
+  margin: 5px 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
